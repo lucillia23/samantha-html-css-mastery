@@ -3,9 +3,9 @@ html {
   font-size: 62.5%;
 }
 
-p, ul, ol, dl, blockquote {
-  font-size: 1.6rem;
-  line-height: 1.8rem;
+p, ul, ol, dl {
+  font-size: 1.9rem;
+  line-height: 2.2rem;
   margin-bottom: 12px;
 }
 
@@ -14,26 +14,26 @@ article {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Ubuntu", serif;
+h1, h2, h3, h4 {
+  font-family: "Ubuntu", Verdana, serif;
   font-weight: 500;
 }
 
 h4 {
   font-size: 1.5rem;
   line-height: 3.1rem;
-  margin: 20px 0;
+  margin: 20px 0 10px 0;
 }
 
 h1 {
   font-size: 4.2rem;
-  line-height: 3.1rem;
-  margin: 20px 0;
+  line-height: 3.6rem;
+  margin: 10px 0 20px 0;
 }
 
 h2 {
   font-size: 3rem;
-  line-height: 2.8rem;
+  line-height: 3.1rem;
   margin: 16px 0;
 }
 
@@ -58,9 +58,13 @@ figcaption {
 }
 
 blockquote {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  margin-top: 20px;
   border-left: grey 4px solid;
-  padding: 20px;
-  margin-left: 30px;
+  padding: 5px 20px 5px 20px;
 }
 
 ol {
